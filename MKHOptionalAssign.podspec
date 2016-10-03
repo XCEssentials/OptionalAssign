@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                      = 'MKHOptionalAssign'
-  s.version                   = '1.0.0'
+  s.version                   = '2.0.0'
   s.summary                   = 'Custom assign operator that safely unwraps and assigns non-nil optionals only.'
   s.homepage                  = 'https://github.com/maximkhatskevich/#{s.name}'
   s.license                   = { :type => 'MIT', :file => 'LICENSE' }
