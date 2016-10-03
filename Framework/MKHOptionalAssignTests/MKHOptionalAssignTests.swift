@@ -2,7 +2,7 @@
 //  MKHOptionalAssignTests.swift
 //  MKHOptionalAssignTests
 //
-//  Created by Maxim Khatskevich on 3/30/16.
+//  Created by Maxim Khatskevich on 10/3/16.
 //  Copyright © 2016 Maxim Khatskevich. All rights reserved.
 //
 
@@ -73,7 +73,7 @@ class MKHOptionalAssignTests: XCTestCase
         
         XCTAssertNil(val2)
         XCTAssertNil(dict[key2])
-        
+
         dict[key2] ?= val2
         
         print("5.1----->>>> \(val2)")
@@ -81,9 +81,9 @@ class MKHOptionalAssignTests: XCTestCase
         
         XCTAssertNil(dict[key2])
         XCTAssertEqual(dict.keys.count, 1)
-        XCTAssertEqual((Array(dict.keys))[0], key1)
-        XCTAssertTrue((Array(dict.keys)).contains(key1))
-        XCTAssertFalse((Array(dict.keys)).contains(key2))
+        XCTAssertEqual(dict.keys.first, key1)
+        XCTAssertTrue(dict.keys.contains(key1))
+        XCTAssertFalse(dict.keys.contains(key2))
         
         //===
         
@@ -102,8 +102,8 @@ class MKHOptionalAssignTests: XCTestCase
         
         XCTAssertNotNil(dict[key2])
         XCTAssertEqual(dict.keys.count, 2)
-        XCTAssertTrue((Array(dict.keys)).contains(key1))
-        XCTAssertTrue((Array(dict.keys)).contains(key2))
+        XCTAssertTrue(dict.keys.contains(key1))
+        XCTAssertTrue(dict.keys.contains(key2))
     }
     
     func testImplicitlyUnwrapped()

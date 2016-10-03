@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948CEAE31DA2AC290025E154 /* MKHOptionalAssignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E163E01CACCEF500260C96 /* MKHOptionalAssignTests.swift */; };
 		94E163D51CACCEF500260C96 /* MKHOptionalAssign.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E163D41CACCEF500260C96 /* MKHOptionalAssign.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E163DC1CACCEF500260C96 /* MKHOptionalAssign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E163D11CACCEF500260C96 /* MKHOptionalAssign.framework */; };
-		94E163E11CACCEF500260C96 /* MKHOptionalAssignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E163E01CACCEF500260C96 /* MKHOptionalAssignTests.swift */; };
 		94E163ED1CACCF2A00260C96 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E163EC1CACCF2A00260C96 /* Main.swift */; };
+		94FAC2BF1DA2AAE5003068D9 /* MKHOptionalAssign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E163D11CACCEF500260C96 /* MKHOptionalAssign.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94E163DD1CACCEF500260C96 /* PBXContainerItemProxy */ = {
+		94FAC2C01DA2AAE5003068D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94E163C81CACCEF500260C96 /* Project object */;
 			proxyType = 1;
@@ -27,10 +27,10 @@
 		94E163D11CACCEF500260C96 /* MKHOptionalAssign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKHOptionalAssign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E163D41CACCEF500260C96 /* MKHOptionalAssign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHOptionalAssign.h; sourceTree = "<group>"; };
 		94E163D61CACCEF500260C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94E163DB1CACCEF500260C96 /* MKHOptionalAssignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHOptionalAssignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E163E01CACCEF500260C96 /* MKHOptionalAssignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKHOptionalAssignTests.swift; sourceTree = "<group>"; };
 		94E163E21CACCEF500260C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E163EC1CACCF2A00260C96 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		94FAC2BA1DA2AAE5003068D9 /* MKHOptionalAssignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHOptionalAssignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,11 +41,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E163D81CACCEF500260C96 /* Frameworks */ = {
+		94FAC2B71DA2AAE5003068D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E163DC1CACCEF500260C96 /* MKHOptionalAssign.framework in Frameworks */,
+				94FAC2BF1DA2AAE5003068D9 /* MKHOptionalAssign.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				94E163D11CACCEF500260C96 /* MKHOptionalAssign.framework */,
-				94E163DB1CACCEF500260C96 /* MKHOptionalAssignTests.xctest */,
+				94FAC2BA1DA2AAE5003068D9 /* MKHOptionalAssignTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,22 +130,22 @@
 			productReference = 94E163D11CACCEF500260C96 /* MKHOptionalAssign.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94E163DA1CACCEF500260C96 /* MKHOptionalAssignTests */ = {
+		94FAC2B91DA2AAE5003068D9 /* MKHOptionalAssignTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94E163E81CACCEF500260C96 /* Build configuration list for PBXNativeTarget "MKHOptionalAssignTests" */;
+			buildConfigurationList = 94FAC2C21DA2AAE5003068D9 /* Build configuration list for PBXNativeTarget "MKHOptionalAssignTests" */;
 			buildPhases = (
-				94E163D71CACCEF500260C96 /* Sources */,
-				94E163D81CACCEF500260C96 /* Frameworks */,
-				94E163D91CACCEF500260C96 /* Resources */,
+				94FAC2B61DA2AAE5003068D9 /* Sources */,
+				94FAC2B71DA2AAE5003068D9 /* Frameworks */,
+				94FAC2B81DA2AAE5003068D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94E163DE1CACCEF500260C96 /* PBXTargetDependency */,
+				94FAC2C11DA2AAE5003068D9 /* PBXTargetDependency */,
 			);
 			name = MKHOptionalAssignTests;
 			productName = MKHOptionalAssignTests;
-			productReference = 94E163DB1CACCEF500260C96 /* MKHOptionalAssignTests.xctest */;
+			productReference = 94FAC2BA1DA2AAE5003068D9 /* MKHOptionalAssignTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,15 +154,18 @@
 		94E163C81CACCEF500260C96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Maxim Khatskevich";
 				TargetAttributes = {
 					94E163D01CACCEF500260C96 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
-					94E163DA1CACCEF500260C96 = {
-						CreatedOnToolsVersion = 7.3;
+					94FAC2B91DA2AAE5003068D9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UJA88X59XP;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -179,7 +182,7 @@
 			projectRoot = "";
 			targets = (
 				94E163D01CACCEF500260C96 /* MKHOptionalAssign */,
-				94E163DA1CACCEF500260C96 /* MKHOptionalAssignTests */,
+				94FAC2B91DA2AAE5003068D9 /* MKHOptionalAssignTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,7 +195,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E163D91CACCEF500260C96 /* Resources */ = {
+		94FAC2B81DA2AAE5003068D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,21 +213,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E163D71CACCEF500260C96 /* Sources */ = {
+		94FAC2B61DA2AAE5003068D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E163E11CACCEF500260C96 /* MKHOptionalAssignTests.swift in Sources */,
+				948CEAE31DA2AC290025E154 /* MKHOptionalAssignTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94E163DE1CACCEF500260C96 /* PBXTargetDependency */ = {
+		94FAC2C11DA2AAE5003068D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94E163D01CACCEF500260C96 /* MKHOptionalAssign */;
-			targetProxy = 94E163DD1CACCEF500260C96 /* PBXContainerItemProxy */;
+			targetProxy = 94FAC2C01DA2AAE5003068D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -243,8 +246,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -292,8 +297,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -313,6 +320,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -324,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -335,6 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -342,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -352,26 +363,38 @@
 				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHOptionalAssign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		94E163E91CACCEF500260C96 /* Debug */ = {
+		94FAC2C31DA2AAE5003068D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = UJA88X59XP;
 				INFOPLIST_FILE = MKHOptionalAssignTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHOptionalAssignTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		94E163EA1CACCEF500260C96 /* Release */ = {
+		94FAC2C41DA2AAE5003068D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = UJA88X59XP;
 				INFOPLIST_FILE = MKHOptionalAssignTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHOptionalAssignTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -396,11 +419,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94E163E81CACCEF500260C96 /* Build configuration list for PBXNativeTarget "MKHOptionalAssignTests" */ = {
+		94FAC2C21DA2AAE5003068D9 /* Build configuration list for PBXNativeTarget "MKHOptionalAssignTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94E163E91CACCEF500260C96 /* Debug */,
-				94E163EA1CACCEF500260C96 /* Release */,
+				94FAC2C31DA2AAE5003068D9 /* Debug */,
+				94FAC2C41DA2AAE5003068D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,10 +10,10 @@ import Foundation
 
 //===
 
-infix operator ?= { associativity right precedence 90 }
+infix operator ?= : AssignmentPrecedence
 
 public
-func ?=<L, R> (inout left: L, right: R?)
+func ?=<L, R> (left: inout L, right: R?)
 {
     if let buf = right as? L
     {
