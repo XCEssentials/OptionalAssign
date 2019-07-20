@@ -163,6 +163,12 @@ try CustomTextFile("""
                 ]
             )
         ],
+        dependencies: [
+            .package(
+                url: "https://github.com/nschum/SwiftHamcrest",
+                from: "2.1.1"
+            )
+        ],
         targets: [
             .target(
                 name: "\(targetNames.core)",
@@ -171,7 +177,8 @@ try CustomTextFile("""
             .testTarget(
                 name: "\(targetNames.tests)",
                 dependencies: [
-                    "\(targetNames.core)"
+                    "\(targetNames.core)",
+                    "SwiftHamcrest"
                 ],
                 path: "\(sourcesLocations.tests)"
             ),

@@ -12,6 +12,12 @@ let package = Package(
             ]
         )
     ],
+    dependencies: [
+        .package(
+            url: "https://github.com/nschum/SwiftHamcrest",
+            from: "2.1.1"
+        )
+    ],
     targets: [
         .target(
             name: "XCEOptionalAssign",
@@ -20,7 +26,8 @@ let package = Package(
         .testTarget(
             name: "XCEOptionalAssignAllTests",
             dependencies: [
-                "XCEOptionalAssign"
+                "XCEOptionalAssign",
+                "SwiftHamcrest"
             ],
             path: "Tests/AllTests"
         ),
